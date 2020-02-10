@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer(data)
-  output
+  output = {}
   data.reduce({}) do | memo, (trait,value) |
 #    p memo
 #    p trait
