@@ -14,5 +14,5 @@ def nyc_pigeon_organizer(data)
   
 #  pp output    
   end
-  pp memor
+  pp memo
 end
