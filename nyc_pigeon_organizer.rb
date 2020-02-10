@@ -6,6 +6,7 @@ def nyc_pigeon_organizer(data)
 #      p key
       names.each{| name | memo[name] = key }
     end
+      pp memo
   end
-  pp memo
+
 end
