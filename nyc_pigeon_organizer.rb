@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
         if !output[name] 
           output[name]= { trait => key } 
         else
-          output[name].merge({ trait => key })
+          output[name] << { trait => key }
         end 
         }  
       
