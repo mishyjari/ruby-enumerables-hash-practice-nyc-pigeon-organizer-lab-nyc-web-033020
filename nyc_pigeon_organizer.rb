@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
 #    p memo
 #    p trait
 
-  memo[value] = nil
+  memo[key] = nil
 
 #   value.reduce({}) do | item, (key, names) |
 #      p key
