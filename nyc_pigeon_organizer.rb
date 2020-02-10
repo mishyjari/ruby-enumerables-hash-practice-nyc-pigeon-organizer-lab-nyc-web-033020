@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
     value.each_pair{ | pair | 
      # p pair 
       pair[1].each{ | name |
-        memo[name] = { key => pair[0] }
+        memo[name] = { key => pair[0].to_s }
       }
     }
     memo
