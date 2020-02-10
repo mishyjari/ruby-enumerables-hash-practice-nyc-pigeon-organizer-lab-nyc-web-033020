@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
     p trait
     value.reduce({}) do | item, (key, names) |
       p key
-      names.
+      names.each{| name | p name }
     end
   end
   pp memo
