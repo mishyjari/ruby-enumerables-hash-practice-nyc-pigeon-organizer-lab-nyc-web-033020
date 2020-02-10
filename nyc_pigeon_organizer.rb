@@ -10,9 +10,9 @@ def nyc_pigeon_organizer(data)
 
       names.each{| name | 
         if !output[name] 
-          output[name]= { trait => key } 
+          output[name] = { trait => key } 
         else
-          output[name] << { trait => key }
+          output[name][trait] = key 
         end 
         }  
       
