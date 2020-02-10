@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
     end
 
   
-  pp output    
+#  pp output    
   end
-
+  pp output
 end
