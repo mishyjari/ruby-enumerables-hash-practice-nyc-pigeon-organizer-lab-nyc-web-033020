@@ -13,6 +13,7 @@ def nyc_pigeon_organizer(data)
           output[name]= { trait => key } 
         else
           output[name].merge({ trait => key })
+        end 
         }  
       
     end
