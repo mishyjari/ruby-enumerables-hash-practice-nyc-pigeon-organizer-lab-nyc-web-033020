@@ -23,6 +23,6 @@ def nyc_pigeon_organizer(data)
   
 #  pp output    
   end
-pp output
+ output
 
 end
