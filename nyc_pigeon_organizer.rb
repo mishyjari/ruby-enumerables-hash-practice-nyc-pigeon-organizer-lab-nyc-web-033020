@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
 #      p key
       names.each{| name | output[name] = { trait => key } }
     end
-      pp output
+      
   end
-
+pp output
 end
