@@ -8,6 +8,6 @@ def nyc_pigeon_organizer(data)
         memo[name] = { key => pair[0].to_s }
       }
     }
-    memo
+    p memo
   end
 end
