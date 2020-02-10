@@ -6,9 +6,9 @@ def nyc_pigeon_organizer(data)
     value.each_pair{ | pair | 
      # p pair 
       pair[1].each{ | name |
-        output[name] = key
+        memo[name] = key
       }
     }
-    pp output
+    pp memo
   end
 end
