@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
     end
     
     
-    pp memo.length
+    memo.each{|i| p i}
   
 #  pp output    
   end
