@@ -4,14 +4,14 @@ def nyc_pigeon_organizer(data)
 #    p memo
 #    p trait
 
-  memo[trait] = nil
+  output[trait] = nil
 
 #   value.reduce({}) do | item, (key, names) |
 #      p key
 #      names.each{| name | memo[name] = nil }
 #    end
 
-  pp memo    
+  pp output    
   end
 
 end
