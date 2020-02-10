@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
     end
     
     
-    memo.each_pair{|pair| output[pair[0]] = nil}
+    memo.each_pair{|pair| output[pair[0]] = pair[1]}
   
 #  pp output    
   end
